@@ -130,10 +130,10 @@ public class KafkaConsumerExample {
 
 If you want to try Apache Kafka by yourself here you have a reference guide step by step about it and some extra example resources.
 
- * https://www.baeldung.com/apache-kafka - Apache Kafka with Docker
- * https://github.com/netsurfingzone/Spring-Boot-Kafka-Producer-and-Consumer-Example - Apache Kafka with Springboot
- * https://spring.io/projects/spring-kafka#overview – Spring for Apache Kafka
- * https://github.com/spring-projects/spring-kafka/tree/main/samples - Spring Kafka example
+ * [Apache Kafka with Docker](https://www.baeldung.com/apache-kafka)
+ * [Apache Kafka with Springboot](https://github.com/netsurfingzone/Spring-Boot-Kafka-Producer-and-Consumer-Example)
+ * [Spring for Apache Kafka](https://spring.io/projects/spring-kafka#overview)
+ * [Spring Kafka Samples](https://github.com/spring-projects/spring-kafka/tree/main/samples)
 
 ### Related topics
  * [Apache Kafka Streams](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-kafka-streams.md)
