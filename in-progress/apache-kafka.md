@@ -136,13 +136,17 @@ If you want to try Apache Kafka by yourself here you have a reference guide step
  * https://github.com/spring-projects/spring-kafka/tree/main/samples - Spring Kafka example
 
 ### Related topics
- * ZooKeeper
- * Apache Spark, Apache Storm, Apache Flink
- * Confluent Platform
+ * [Apache Kafka Streams](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-kafka-streams.md)
+ * [Apache ZooKeeper](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-zookeeper.md) 
+ * [Apache Spark](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-spark.md)
+ * [Apache Hadoop](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-hadoop.md)
+ * Apache Storm
+ * Apache Flink
+ * [Confluent Cloud](https://github.com/hfacundo/km-repo/blob/main/in-progress/confluent-cloud.md)
  * Spring Kafka
- * Docker, Kubernetes
- * Grafana, Prometheus
- * Event Driven architecture
+ * Docker
+ * Kubernetes
+ * [Event Driven architecture](https://github.com/hfacundo/km-repo/blob/main/in-progress/event-driven-architecture.md)
  * Microservices
  * Real-time data processing architecture
 
