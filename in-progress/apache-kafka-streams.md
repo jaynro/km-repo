@@ -115,7 +115,7 @@ Real-time Analytics:
 Perform real-time analytics on streaming data. Kafka Streams enables you to compute aggregations, filter data, and generate meaningful insights as data streams through the system.
 
 Fraud Detection:
- * Identify potentially fraudulent activities by analyzing patterns and anomalies in real-time. Kafka Streams can process and analyze large volumes of transactional data as it arrives.
+Identify potentially fraudulent activities by analyzing patterns and anomalies in real-time. Kafka Streams can process and analyze large volumes of transactional data as it arrives.
 
 Monitoring and Alerting:
 Use Kafka Streams to monitor data streams for specific conditions and trigger alerts or notifications in real-time. This is valuable for system monitoring and anomaly detection.
