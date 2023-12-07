@@ -124,3 +124,13 @@ Hadoop is a widely used framework for big data processing and is employed by num
 **Yahoo**: Yahoo employs Hadoop for data warehousing and analytics, managing data from its search engine, email services, and social media platforms. It enables Yahoo to analyze user behavior, optimize ad targeting, and provide personalized content recommendations.
 
 These examples showcase the diverse applications of Hadoop across various industries, demonstrating its versatility and effectiveness in handling large-scale data processing tasks.
+
+### Related topics
+ * [Apache Kafka Streams](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-kafka-streams.md)
+ * [Apache ZooKeeper](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-zookeeper.md) 
+ * [Apache Spark](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-spark.md)
+ * Apache Storm
+ * Apache Flink
+ * [Event Driven architecture](https://github.com/hfacundo/km-repo/blob/main/in-progress/event-driven-architecture.md)
+ * Microservices
+ * Real-time data processing architecture
