@@ -1,4 +1,4 @@
-# summary
+# Summary
 
 Apache Spark is an open-source, distributed computing framework for large-scale data processing. It is designed to be fast and scalable, and it can be used to process data from a variety of sources, including HDFS, Cassandra, and Kafka. Spark provides a unified engine for data engineering, data science, and machine learning.
 
