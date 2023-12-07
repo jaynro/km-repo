@@ -1,12 +1,13 @@
-Summary: 
+# Summary:
+
 Apache Kafka is a distributed streaming platform that excels in handling real-time data feeds and building scalable, fault-tolerant data pipelines. Developed by the Apache Software Foundation, Kafka follows a publish-subscribe model, allowing seamless communication between producers and consumers through topics.
 
 In this document we briefly discuss the core concepts of Apache Kafka, however it is enough to give you an overview of how it works.
 
-Why should we use Apache Kafka? 
+## Why should we use Apache Kafka? 
 There are several compelling reasons to use Apache Kafka, and its popularity has grown significantly due to its unique features and capabilities.
 
-Key Advantages:
+### Key Advantages:
 
 1.	Scalability: Kafka is designed to scale horizontally, accommodating increased data loads by adding more nodes to the cluster. This ensures the system's ability to handle growing demands effortlessly.
 
@@ -20,61 +21,62 @@ Key Advantages:
 
 6.	Reliable data processing: Organizations benefit from Kafka's reliable data processing capabilities, ensuring that critical information is efficiently managed and delivered in real-time, contributing to improved decision-making processes.
 
-How Apache Kafka works?
+## How Apache Kafka works?
 As mentioned above, Apache Kafka works on the principles of a publish-subscribe model and is built to be scalable, fault-tolerant, and highly durable. Here's a high-level overview of how Apache Kafka works:
 
-Topics and Producers:
+### Topics and Producers:
 Data is organized into topics, which act as channels for communication.
 Producers publish records (messages) to specific topics.
 Topics can be thought of as feeds to which data is sent.
 
-Brokers:
+### Brokers:
 Kafka clusters consist of one or more brokers (servers).
 Brokers store data and serve client requests.
 Each broker is part of the cluster and has its own unique identifier.
 
-Partitioning:
+### Partitioning:
 Each topic is divided into partitions, which allows for parallel processing and scalability.
 Partitions are the basic unit of parallelism and data distribution in Kafka.
 
-Replication:
+### Replication:
 Each partition has multiple replicas distributed across different brokers.
 Replication ensures fault tolerance. If one broker fails, data remains accessible from its replicas.
 
-Consumers:
+### Consumers:
 Consumers subscribe to topics and process records from partitions.
 Consumers can be part of a consumer group, enabling parallel processing and load balancing.
 
-Zookeeper:
+### Zookeeper:
 Zookeeper is used for managing and coordinating Kafka brokers.
 It maintains metadata, such as topic and partition information, and tracks the health of brokers.
 
-Publish-Subscribe Model:
+### Publish-Subscribe Model:
 Producers publish records to topics without being aware of the consumers.
 Consumers subscribe to topics and receive records in real-time.
 
-Retention and Log Compaction:
+### Retention and Log Compaction:
 Kafka retains records for a configurable period or size.
 Log compaction ensures that only the latest record for each key is retained, reducing storage.
 
-Scalability:
+### Scalability:
 Kafka scales horizontally by adding more brokers to the cluster.
 Each broker can handle multiple partitions, and adding more brokers increases the overall capacity.
 
-Connectors and Streams:
+### Connectors and Streams:
 Kafka supports connectors for integrating with external systems, facilitating data import/export.
 Kafka Streams allows for building applications that process and analyze data within the Kafka platform.
 
-Producers and Consumers
+### Producers and Consumers
 In Apache Kafka, producers and consumers play essential roles in the real-time data streaming ecosystem.
 
 Producers are responsible for publishing (or producing) records/messages to Kafka topics, they generate data and send it to Kafka topics, which act as channels or feeds. They are unaware of the number of consumers or who is consuming the data.
 
 Here is a Java example of how Producers work:
 
-// Example 1: Producer sending a message to a Kafka topic
+```
 import org.apache.kafka.clients.producer.*;
 
+// Example 1: Producer sending a message to a Kafka topic
 public class KafkaProducerExample {
     public static void main(String[] args) {
         Properties properties = new Properties();
@@ -89,17 +91,20 @@ public class KafkaProducerExample {
         producer.close();
     }
 }
+```
 
 Consumers by the other hand, subscribe to Kafka topics and process the records/messages published by producers, they retrieve and process data from Kafka topics in real-time.
 
 Here is a Java example of how Consumers work:
 
-// Example 2: Consumer subscribing to a Kafka topic
+```
+
 import org.apache.kafka.clients.consumer.*;
 import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
+// Example 2: Consumer subscribing to a Kafka topic
 public class KafkaConsumerExample {
     public static void main(String[] args) {
         Properties properties = new Properties();
@@ -119,22 +124,25 @@ public class KafkaConsumerExample {
         }
     }
 }
+```
 
-Apache Kafka step by step
+### Apache Kafka step by step
+
 If you want to try Apache Kafka by yourself here you have a reference guide step by step about it and some extra example resources.
-https://www.baeldung.com/apache-kafka - Apache Kafka with Docker
-https://github.com/netsurfingzone/Spring-Boot-Kafka-Producer-and-Consumer-Example - Apache Kafka with Springboot
-https://spring.io/projects/spring-kafka#overview – Spring for Apache Kafka
-https://github.com/spring-projects/spring-kafka/tree/main/samples - Spring Kafka example
 
-Related topics
-ZooKeeper
-Apache Spark, Apache Storm, Apache Flink
-Confluent Platform
-Spring Kafka
-Docker, Kubernetes
-Grafana, Prometheus
-Event Driven architecture
-Microservices
-Real-time data processing architecture
+ * https://www.baeldung.com/apache-kafka - Apache Kafka with Docker
+ * https://github.com/netsurfingzone/Spring-Boot-Kafka-Producer-and-Consumer-Example - Apache Kafka with Springboot
+ * https://spring.io/projects/spring-kafka#overview – Spring for Apache Kafka
+ * https://github.com/spring-projects/spring-kafka/tree/main/samples - Spring Kafka example
+
+### Related topics
+ * ZooKeeper
+ * Apache Spark, Apache Storm, Apache Flink
+ * Confluent Platform
+ * Spring Kafka
+ * Docker, Kubernetes
+ * Grafana, Prometheus
+ * Event Driven architecture
+ * Microservices
+ * Real-time data processing architecture
 
