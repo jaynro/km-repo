@@ -157,3 +157,18 @@ Use Case: Netflix has employed Kafka Streams for real-time event processing to e
 
 Pinterest:
 Use Case: Pinterest utilizes Kafka Streams for real-time analytics, tracking user engagement, and delivering personalized content recommendations to users based on their preferences and interactions.
+
+### Related topics
+ * [Apache Kafka](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-kafka.md)
+ * [Apache ZooKeeper](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-zookeeper.md) 
+ * [Apache Spark](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-spark.md)
+ * [Apache Hadoop](https://github.com/hfacundo/km-repo/blob/main/in-progress/apache-hadoop.md)
+ * Apache Storm
+ * Apache Flink
+ * [Confluent Cloud](https://github.com/hfacundo/km-repo/blob/main/in-progress/confluent-cloud.md)
+ * Spring Kafka
+ * Docker
+ * Kubernetes
+ * [Event Driven architecture](https://github.com/hfacundo/km-repo/blob/main/in-progress/event-driven-architecture.md)
+ * Microservices
+ * Real-time data processing architecture
