@@ -1,3 +1,5 @@
+## Tags- [Kafka](#Kafka)- [Event Driven](#Event Driven)- [Microservices](#Microservices)
+
 # Summary
 
 Apache Kafka is a distributed streaming platform that excels in handling real-time data feeds and building scalable, fault-tolerant data pipelines. Developed by the Apache Software Foundation, Kafka follows a publish-subscribe model, allowing seamless communication between producers and consumers through topics.
