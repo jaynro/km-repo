@@ -1,0 +1,70 @@
+# Azure EKS (Azure Kubernetes Service)
+
+## 1. Technology Overview:
+Azure Kubernetes Service (AKS) is a managed Kubernetes service provided by Microsoft Azure. It simplifies the deployment, management, and scaling of containerized applications using Kubernetes.
+
+## 2. Key Concepts:
+- **Node Pools:** Azure EKS allows the creation of multiple node pools with different machine types, enabling optimization for specific workloads.
+- **Azure Monitor Integration:** Integration with Azure Monitor for detailed monitoring and diagnostics of your Kubernetes clusters.
+
+## 3. Architecture:
+- **Control Plane:** Azure EKS includes a managed Kubernetes control plane for simplified cluster management.
+- **Node Agents:** Worker nodes run as agents in the cluster, hosting the containerized applications.
+
+## 4. Use Cases:
+- **Scalable Container Orchestration:** Azure EKS is ideal for orchestrating and scaling containerized applications, providing a robust and efficient solution for managing container workloads.
+- **Microservices Architecture:** Supports the deployment of microservices-based applications, allowing teams to independently develop, deploy, and scale components.
+
+## 5. Clients and Industries:
+- **Clients:** Organizations such as [Client A], [Client B], and [Client C] have successfully implemented Azure EKS for their containerized workloads.
+- **Industries:** Widely used in industries like finance, e-commerce, and healthcare for deploying and managing scalable and resilient applications.
+
+## 6. Integration:
+- **Azure DevOps Integration:** Seamless integration with Azure DevOps for continuous integration and delivery (CI/CD) pipelines.
+- **Azure Container Registry:** Easily integrates with Azure Container Registry for secure storage and management of container images.
+
+## Success Stories
+
+### Success Story 1
+#### Company Y - Resolving Latency Issues with Azure EKS
+
+##### Situation:
+- **Client:** Company Y
+- **Industry:** E-commerce
+- **Challenge:** Company Y faced latency issues in their existing infrastructure, impacting the performance of their customer-facing applications.
+
+##### Tasks:
+1. **Identification of Latency Sources:**
+   - Conducted a thorough analysis to identify sources of latency within the existing infrastructure.
+   - Pinpointed bottlenecks and areas contributing to delays in application response times.
+
+2. **Evaluation of Containerization Solutions:**
+   - Explored various containerization solutions to modernize and optimize the application architecture.
+   - Considered factors such as ease of management, scalability, and integration capabilities.
+
+3. **Selection of Azure EKS:**
+   - Chose Azure EKS as the preferred solution for container orchestration based on its managed Kubernetes service features and seamless integration with Azure services.
+
+##### Achievements:
+1. **Efficient Container Orchestration:**
+   - Successfully migrated Company Y's applications to Azure EKS, achieving efficient container orchestration and workload distribution.
+   - Implemented best practices for scaling and load balancing to handle varying levels of traffic.
+
+2. **Latency Reduction:**
+   - Addressed identified latency sources, resulting in a significant reduction in application response times.
+   - Optimized resource allocation and utilization within the Azure EKS environment.
+
+##### Results:
+1. **Improved User Experience:**
+   - Company Y witnessed a notable improvement in the overall user experience, with faster response times and reduced transaction delays.
+   - Eliminated instances of application slowdowns during peak loads.
+
+2. **Scalability and Reliability:**
+   - Azure EKS provided the scalability needed to handle increased user loads during peak times without sacrificing performance.
+   - Achieved a more reliable infrastructure, minimizing downtime and ensuring consistent application availability.
+
+By showcasing this success story, the document communicates how Azure EKS was applied to address specific latency challenges, resulting in improved user experience and system reliability.
+
+# References
+Azure Kubernetes Service (AKS) Documentation: [Azure AKS Documentation](https://docs.microsoft.com/en-us/azure/aks/)
+Azure Kubernetes Service (AKS) Best Practices: [AKS Best Practices](https://docs.microsoft.com/en-us/azure/aks/best-practices)
