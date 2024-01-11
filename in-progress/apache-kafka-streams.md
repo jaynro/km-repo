@@ -1,3 +1,5 @@
+## Tags- [Kafka](#Kafka)- [Event Driven](#Event Driven)- [Microservices](#Microservices)
+
 # Summary
 
 Apache Kafka Streams is a library for building real-time, highly scalable, and fault-tolerant stream processing applications using Apache Kafka. It allows you to process and analyze data in real-time as it flows through the Kafka cluster. Kafka Streams is part of the Apache Kafka project and is tightly integrated with Kafka, leveraging its distributed nature, fault tolerance, and scalability.
